@@ -1,0 +1,8 @@
+.site-blog .row {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.site-blog .row > div {
+  padding: 0;
+}

@@ -1,0 +1,18 @@
+.site-blog-title {
+  padding: 15px 0 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.site-blog-author {
+  font-size: 12px;
+  padding: 0 0 20px;
+}
+
+.site-blog-content {
+  font-size: 13px;
+  line-height: 180%;
+  padding: 0 0 10px;
+  margin: 0 0 10px;
+  border-bottom: 1px solid #aaa;
+}
