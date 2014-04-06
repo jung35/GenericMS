@@ -1,0 +1,23 @@
+.player-list-table {
+  margin: 20px 0 0;
+}
+
+.player-list-table th {
+  text-align: center;
+}
+
+.player-list-table tbody td {
+  vertical-align: middle !important;
+}
+
+.player-list-sort-label label {
+  font-weight: 400;
+  cursor: pointer;
+  padding: 3px 0;
+  text-align: center;
+  display: block;
+}
+
+.player-list-sort-label label:hover {
+  font-weight: bold;
+}

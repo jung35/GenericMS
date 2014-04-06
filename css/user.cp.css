@@ -1,0 +1,26 @@
+.user-cp-menu,
+.user-cp-sub {
+  padding: 20px 15px 0;
+}
+
+.breadcrumb,
+.nav-pills li a:hover,
+.nav-pills li.active a,
+.nav-pills li.active:hover a,
+.nav-tabs li.active a,
+.nav-tabs li.active:hover a,
+.nav-tabs li:hover a {
+  background: rgba(255, 255, 255, .4);
+}
+
+.nav-pills li a:hover,
+.nav-pills li.active a,
+.nav-pills li.active:hover a {
+  color: #2a6496;
+  border-right: 5px solid #ff7f66;
+}
+
+.nav-pills li a {
+  color: #428bca;
+  border-right: 5px solid rgba(176, 146, 153, .5);
+}

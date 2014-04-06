@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/players.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+  <title>GenericMS &mdash; Players</title>
+</head>
+<body><a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+  <div class="container">
+    <div class="site-flash row">
+      <div class="col-xs-6 site-annoucement bg-primary">Please remember to vote for us every 6 hours!</div>
+      <div class="col-xs-6 site-notice">The server will be restarting in an hour.</div>
+    </div>
+  </div>
+  <div class="container header">
+    <div class="mschar"></div>
+    <div class="logo">GenericMS
+      <div class="slogan">some bad slogan here</div>
+    </div>
+  </div>
+  <div class="navbar container" role="navigation">
+    <ul class="navbar-nav navbar-links">
+      <li><a href="./">Home</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Community</a></li>
+      <li class="divider"></li>
+      <li class="active"><a href="./players.html">Players</a></li>
+      <li class="divider"></li>
+      <li><a href="./vote.html">Vote</a></li>
+      <li class="divider"></li>
+      <li><a href="./download.html">Download</a></li>
+      <li class="divider"></li>
+    </ul>
+    <ul class="navbar-nav navbar-right">
+      <li class="divider"></li>
+      <li class="server-status ttip" title="Server: <b>Online</b><br>[ 50 / 100 ]">50 <span class="glyphicon glyphicon-signal text-success"></span></li>
+      <li class="divider"></li>
+      <li><a href="./login.html">Login / Register</a></li>
+    </ul>
+  </div>
+  <div class="container main-content">
+    <div class="row">
+
+      <!-- Players -->
+      <div class="col-xs-9">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="text-center">Players / Leaderboard</h3>
+            <form>
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-default dropdown-toggle player-list-sort-button" data-toggle="dropdown"><span>Sort By</span> <span class="caret"></span></button>
+                  <ul class="dropdown-menu player-list-sort-label">
+                    <li><label for="job-beginner">Beginner</label></li>
+                    <li><label for="job-warrior">Warrior</label></li>
+                    <li><label for="job-magician">Magician</label></li>
+                    <li><label for="job-bowman">Bowman</label></li>
+                    <li><label for="job-theif">Theif</label></li>
+                    <li><label for="job-pirate">Pirate</label></li>
+                    <li><label for="job-cygnus">Cygnus</label></li>
+                    <li><label for="job-aran">Aran</label></li>
+                    <li class="divider"></li>
+                    <li><label for="job-none">Clear Sort</label></li>
+                  </ul>
+                </div>
+                <div class="hidden">
+                  <input type="radio" name="job" id="job-beginner" value="beginner">
+                  <input type="radio" name="job" id="job-warrior" value="warrior">
+                  <input type="radio" name="job" id="job-magician" value="magician">
+                  <input type="radio" name="job" id="job-bowman" value="bowman">
+                  <input type="radio" name="job" id="job-theif" value="theif">
+                  <input type="radio" name="job" id="job-pirate" value="pirate">
+                  <input type="radio" name="job" id="job-cygnus" value="cygnus">
+                  <input type="radio" name="job" id="job-aran" value="aran">
+                  <input type="radio" name="job" id="job-none" value="" checked>
+                </div>
+                <input name="s" type="text" class="form-control" placeholder="..." />
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">Update List</button>
+                </div>
+              </div>
+            </form>
+            <table class="table table-hover player-list-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Character</th>
+                  <th>Name</th>
+                  <th>Job</th>
+                  <th>Level / Rebirth</th>
+                  <th>Fame</th>
+                </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>1</td>
+                  <td><img src="./img/char/1.png"></td>
+                  <td>Venom</td>
+                  <td>Night Lord</td>
+                  <td>184 /<br> 3</td>
+                  <td>-1</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td><img src="./img/char/2.png"></td>
+                  <td>Pufje</td>
+                  <td>Hero</td>
+                  <td>176 /<br> 3</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td><img src="./img/char/3.png"></td>
+                  <td>Teddie</td>
+                  <td>Bow Master</td>
+                  <td>171 /<br> 2</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td><img src="./img/char/4.png"></td>
+                  <td>Ganja</td>
+                  <td>Bishop</td>
+                  <td>170 /<br> 2</td>
+                  <td>83</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td><img src="./img/char/5.png"></td>
+                  <td>Crackers</td>
+                  <td>Bishop</td>
+                  <td>165 /<br> 1</td>
+                  <td>-10934</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="pagination">
+              <li class="disabled"><a href="#">&laquo;</a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&raquo;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURES -->
+      <div class="col-xs-3">
+        <h3 class="text-center">Features</h3>
+        <div class="col-xs-12 site-features">
+          <h4>Server Info</h4>
+          <ul>
+            <li>Version - <b>v.80</b></li>
+            <li>EXP - <b>123x</b></li>
+            <li>MESO - <b>234x</b></li>
+            <li>DROP - <b>345x</b></li>
+          </ul>
+          <ul>
+            <li>Users - <b>2014</b></li>
+            <li>Characters - <b>9001</b></li>
+            <li>Guilds - <b>666</b></li>
+          </ul>
+          <h4>Weekly Events</h4>
+          <ul>
+            <li>Jump Quests</li>
+            <li>Quizzes</li>
+            <li>And More!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted copyright">&copy; 2014 GenericMS
+        <br>All images and other content related to MapleStory are owned by Nexon Corporation
+      </p>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/bootstrap.js"></script>
+  <script type="text/javascript" src="./js/global.js"></script>
+  <script type="text/javascript" src="./js/players.js"></script>
+</body>
+</html>

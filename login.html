@@ -5,13 +5,12 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/global.css">
-  <link rel="stylesheet" href="./css/index.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
-  <title>GenericMS</title>
+  <title>GenericMS &mdash; Login / Register</title>
 </head>
 <body><a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
   <div class="container">
@@ -28,7 +27,7 @@
   </div>
   <div class="navbar container" role="navigation">
     <ul class="navbar-nav navbar-links">
-      <li class="active"><a href="./">Home</a></li>
+      <li><a href="./">Home</a></li>
       <li class="divider"></li>
       <li><a href="#">Community</a></li>
       <li class="divider"></li>
@@ -55,8 +54,8 @@
         <div id="player-ranking" class="row carousel" data-ride="carousel">
           <div class="col-xs-4 player-ranking-list col-xs-offset-1">
             <div class="row player-ranking-player">
-              <div class="col-xs-4 "><b>#</b></div>
-              <div class="col-xs-8 player-ranking-username"><b>Player</b></div>
+              <div class="col-xs-4">#</div>
+              <div class="col-xs-8 player-ranking-username">Player</div>
             </div>
             <div data-target="#player-ranking" data-slide-to="0" class="row player-ranking-player active">
               <div class="col-xs-4">1</div>
@@ -135,65 +134,51 @@
         </div>
       </div>
 
-      <!-- NOTICES / EVENTS / GM BLOG -->
+      <!-- LOGIN -->
       <div class="col-xs-6">
-        <h3 class="text-center">Notices / blogs</h3>
-        <div class="site-blog">
-          <div class="row text-center">
-            <a href="#"><img src="http://placekitten.com/455/80"></a>
+        <div class="row">
+          <div class="col-xs-6">
+            <form role="form">
+              <h3 class="text-center">Login</h3>
+              <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Keep me logged in
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Login</button>
+              <br>
+              <br><a href="#">Forgot Password</a>
+            </form>
           </div>
-          <div class="row">
-            <div class="col-xs-2 col-xs-offset-half">
-              <span class="label label-primary">blog</span>
-              <span class="text-muted">[03.15]</span>
-            </div>
-            <div class="col-xs-6">
-              <a href="./blog.html">100x EXP for the next 5 hours!</a>
-            </div>
-            <div class="col-xs-3 text-right"><b>300</b> views [ <a>Admin</a> ]</div>
-          </div>
-          <div class="row">
-            <div class="col-xs-2 col-xs-offset-half">
-              <span class="label label-primary">blog</span>
-              <span class="text-muted">[03.15]</span>
-            </div>
-            <div class="col-xs-6">
-              <a href="./blog.html">100x EXP for the next 5 hours!</a>
-            </div>
-            <div class="col-xs-3 text-right"><b>300</b> views [ <a>Admin</a> ]</div>
-          </div>
-          <div class="row">
-            <div class="col-xs-2 col-xs-offset-half">
-              <span class="label label-primary">blog</span>
-              <span class="text-muted">[03.15]</span>
-            </div>
-            <div class="col-xs-6">
-              <a href="./blog.html">100x EXP for the next 5 hours!</a>
-            </div>
-            <div class="col-xs-3 text-right"><b>300</b> views [ <a>Admin</a> ]</div>
-          </div>
-          <div class="row">
-            <div class="col-xs-2 col-xs-offset-half">
-              <span class="label label-success">Notice</span>
-              <span class="text-muted">[03.15]</span>
-            </div>
-            <div class="col-xs-6">
-              <a href="./blog.html">100x EXP for the next 5 hours!</a>
-            </div>
-            <div class="col-xs-3 text-right"><b>0</b> views [ <a href="./user.profile.html">Jung</a> ]</div>
-          </div>
-        </div>
-        <h3 class="text-center">GM Blog</h3>
-        <div class="site-blog">
-          <div class="row">
-            <div class="col-xs-2 col-xs-offset-half">
-              <span class="label label-info">Blog</span>
-              <span class="text-muted">[03.15]</span>
-            </div>
-            <div class="col-xs-6">
-              <a href="./blog.html">100x EXP for the next 5 hours!</a>
-            </div>
-            <div class="col-xs-3 text-right"><b>300</b> views [ <a>Admin</a> ]</div>
+          <div class="col-xs-6">
+            <form role="form">
+              <h3 class="text-center">Register</h3>
+              <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <label>Email address (To verify)</label>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label>Password (Verify)</label>
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-default">Register</button>
+            </form>
           </div>
         </div>
       </div>
@@ -214,7 +199,7 @@
             <li>Characters - <b>9001</b></li>
             <li>Guilds - <b>666</b></li>
           </ul>
-          <h4>Weekly blogs</h4>
+          <h4>Weekly Events</h4>
           <ul>
             <li>Jump Quests</li>
             <li>Quizzes</li>
